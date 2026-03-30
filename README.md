@@ -2,49 +2,46 @@
 
 Automação de ambiente de laboratório desenvolvida em Python para execução automática após login no Windows.
 
-## 📌 Sobre o projeto
+---
 
-Este projeto foi criado para resolver um problema real em um laboratório universitário, onde a preparação dos computadores antes das aulas era feita manualmente, gerando perda de tempo e inconsistência no ambiente.
+## 🚨 Problema
 
-A solução automatiza todo o processo, deixando as máquinas prontas para uso em poucos segundos.
+No laboratório universitário, antes de cada aula:
+
+- Computadores não estavam padronizados  
+- Aplicativos precisavam ser abertos manualmente  
+- Tempo era perdido a cada turma  
 
 ---
 
-## 🚀 Funcionalidades
+## 💡 Solução
 
-- Ajuste automático de Caps Lock e Num Lock
-- Inicialização de serviços do Windows (ex: Bluetooth)
-- Abertura automática de aplicativos educacionais
-- Execução de aplicações em fullscreen
-- Padronização do ambiente entre diferentes usuários
+Desenvolvi um script em Python integrado ao login do Windows que automatiza a preparação inicial do ambiente.
 
 ---
 
-## ⚙️ Como funciona
+## ⚙️ Funcionalidades
 
-O script é executado automaticamente após o login do usuário no Windows, realizando uma sequência de configurações e inicializações necessárias para o uso do laboratório.
-
----
-
-## 🎯 Resultados
-
-- Redução do tempo de preparação das máquinas
-- Eliminação de tarefas repetitivas
-- Padronização do ambiente
-- Melhoria na experiência de alunos e professores
+- Ativação automática do Num Lock  
+- Abertura automática do navegador (Google Chrome)  
+- Acesso automático ao portal do aluno  
+- Redução de tarefas manuais  
 
 ---
 
-## 🛠 Tecnologias utilizadas
+## 📊 Resultados
 
-- Python
-- Windows
-- Automação de tarefas
+- Redução do tempo de preparação das máquinas  
+- Menos intervenção manual da TI  
+- Mais agilidade no início das aulas  
 
 ---
 
-## 📂 Estrutura do projeto
-autolab.py # Script principal de automação
+## 🛠 Tecnologias
+
+- Python  
+- Windows  
+- Automação de tarefas  
 
 ---
 
@@ -54,25 +51,27 @@ autolab.py # Script principal de automação
 
 git clone https://github.com/devRenanRodrigues/lab-automation-windows.git
 
-2. Configure o script para iniciar com o Windows
+2. Configure o script para iniciar com o Windows  
 
-3. Execute após login do usuário
+3. Execute após login  
 
 ---
 
 ## 📌 Contexto
 
-Projeto desenvolvido em ambiente universitário real, com foco em otimização de processos operacionais e melhoria da eficiência no uso de laboratórios.
+Projeto desenvolvido em ambiente universitário real, atuando na área de TI, com foco em automação de tarefas repetitivas.
 
 ---
 
 ## 👨‍💻 Autor
 
-Desenvolvido por Renan Rodrigues  
-Estudante de Engenharia de Software e profissional de TI
+Renan Rodrigues  
+Estudante de Engenharia de Software | TI  
 
 ---
 
-## 💡 Observação
+## 💡 Possíveis melhorias
 
-Este projeto pode ser adaptado para outros ambientes corporativos que necessitam de padronização e automação de estações de trabalho.
+- Abertura de múltiplos sistemas automaticamente  
+- Implementação de logs  
+- Interface gráfica para configuração
